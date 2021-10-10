@@ -104,7 +104,25 @@ Git comes with built-in GUI tools like git bash, git-gui, and gitk for committin
 - SmartGit
 
 <a name="git-flow"></a> 
-#### Git flow
+#### Git Flow
+
+Git flow is the set of guidelines that developers can follow when using Git. We cannot say these guidelines as rules. These are not the rules; it is a standard for an ideal project. So that a developer would easily understand the things.
+
+It is referred to as Branching Model by the developers and works as a central repository for a project. Developers work and push their work to different branches of the main repository.
+
+There are different types of branches in a project. According to the standard branching strategy and release management, there can be following types of branches:
+
+- Master
+- Develop
+- Hotfixes
+- Release branches
+- Feature branches
+
+Two of the branching model's branches are considered as main branches of the project (master, develop).
+
+The master branch is the main branch of the project that contains all the history of final changes. Every developer must be used to the master branch. The master branch contains the source code of HEAD that always reflects a final version of the project.
+
+It is parallel to the master branch. It is also considered the main branch of the project.  This branch contains the latest delivered development changes for the next release. 
 
 <a name="git-commands"></a> 
 ### Git Commands
