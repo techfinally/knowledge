@@ -67,7 +67,7 @@ https://git-scm.com/downloads
 Confirm Git the installation
 
 ```
-git --versio
+git --version
 ```
 
 <a name="git-environment-setup"></a> 
