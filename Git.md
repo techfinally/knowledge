@@ -1,4 +1,4 @@
-# Knowledge Sharing
+# Git - Knowledge Sharing
 
 ## Table of contents
 
@@ -16,13 +16,26 @@
 - [3. Git Branch](#git-branch)
 - [4. Git Checkout](#git-checkout)
 - [5. Git Add](#git-add)
-
-![GIT](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)
+- [6. Git Commit](#git-commit)
+- [7. Git Push](#git-push)
+- [8. Git Pull](#git-pull)
+- [9. Git Diff](#git-diff)
+- [10. Git Stash](#git-stash)
+- [11. Git Status](#git-status)
+- [12. Git Log](#git-log)
+- [13. Git Status](#git-status)
+- [14. Git Log](#git-log)
+- [15. Git Merge](#git-merge)
+- [16. Git Rebase](#git-rebase)
+- [17. Git Reset](#git-reset)
+- [18. Git Revert](#git-revert)
 
 <a name="what-is-git"></a> 
 ### What is Git?
 
 Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
+
+![GIT](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)
 
 Git was created by Linus Torvalds in 2005 for the development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer. Git is free and open-source software distributed under GNU General Public License Version 2.
 
