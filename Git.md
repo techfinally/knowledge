@@ -39,6 +39,23 @@ Git is software for tracking changes in any set of files, usually used for coord
 
 Git was created by Linus Torvalds in 2005 for the development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer. Git is free and open-source software distributed under GNU General Public License Version 2.
 
+
+
+<a name="getting-started"></a> 
+### Getting Started
+
+<a name="how-to-install-git"></a> 
+#### How to Install Git
+
+<a name="git-environment-setup"></a> 
+#### Git Environment Setup
+
+<a name="git-tools"></a> 
+#### Git Tools
+
+<a name="git-flow"></a> 
+#### Git flow
+
 <a name="git-commands"></a> 
 ### Git Commands
 
