@@ -97,6 +97,137 @@ This command will add only a single file to your next commit. If you want to add
 git add -A
 ```
 
+<a name="git-commit"></a> 
+#### Git Commit
+
+Every time you commit your code changes, you’ll also include a message to briefly describe the changes you made. This helps other team members quickly understand what was added, changed, or removed.
+
+```
+git commit -m “<commit-message>”
+```
+
+Note: The git commit command saves the changes only in your local repository. It does not push to the remote origin and make your changes accessible for others to collaborate.
+
+<a name="git-push"></a> 
+#### Git Push
+
+To make all your committed changes available to your teammates, you’ll have to push them to the remote origin.
+
+```
+git push <remote> <branch-name>
+```
+
+Note: It’s important to remember that git push command will upload only the changes you’ve committed.
+
+<a name="git-pull"></a> 
+#### Git Pull
+
+The git pull command allows you to fetch all the changes that your teammates pushed and automatically merge them into your local repo.
+
+```
+git pull <remote>
+```
+
+<a name="git-diff"></a> 
+#### Git Diff
+
+Git Diff is my go-to command when I want to quickly see the difference between my current branch and another branch (usually the branch I’m merging into).
+
+```
+git diff
+```
+
+To compare a file from two branches
+
+```
+git diff branch1 branch2 ./filename.txt
+```
+
+<a name="git-stash"></a> 
+#### Git Stash
+
+Git Stash temporarily shelves your work, so you can switch to another branch, work on something else, and then come back to this at a later time.
+
+It’s perfect if you need to work on something else and you’re midway through a code change, but aren’t ready to commit the code.
+
+```
+git stash save “<stash-message>”
+```
+
+This will stash your changes with the message you entered. This can be helpful when you want to come back and restore your stash, especially when you have several stashes.
+
+However, this will only stash your tracked files that you added using git add. If you want to include the untracked files as well, run
+
+```
+git stash save -u
+```
+
+When you want to view all the stashed code, you can view them using this command. Once you stash your code, git will assign a stash id, so you can restore a specific stashed code later.
+
+```
+git stash list
+```
+
+This will automatically restore and apply the topmost stash in the stack.
+
+```
+git stash apply
+```
+
+To automatically also delete the stash from the stack, the git stash pop command is used. If you want to do it for a specific stash in the stack:
+
+```
+git stash pop
+```
+
+<a name="git-status"></a> 
+#### Git Status
+
+When you’re feeling a bit lost with what’s happened in your repo (yes, it can happen) the Git Status command can tell you all the information you’ll need to know.
+
+```
+git status
+```
+
+<a name="git-log"></a> 
+#### Git Log
+
+While git status gave you nearly all the information you’d have needed, it wouldn’t give you the information about the commit history for the repository. This is where the git log command comes into the picture.
+
+```
+git log
+```
+
+<a name="git-merge"></a> 
+#### Git Merge
+
+Once you’re done with development inside your feature branch and tested your code, you can merge your branch with the parent branch. This could be either a develop branch or a master branch depending on the git workflow you follow.
+
+When running a git merge command, you first need to be on the specific branch that you want to merge with your feature branch.
+
+```
+git checkout develop
+```
+
+Before merging, you must make sure that you update your local develop branch. This is important because your teammates might’ve merged into the develop branch while you were working on your feature. We do this by running the pull command.
+
+```
+git pull
+```
+
+If there are no conflicts while pulling the updates, you can finally merge your feature branch into the develop branch.
+
+```
+git merge feature
+```
+
+
+
+
+
+
+
+
 
 
 
