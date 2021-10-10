@@ -50,6 +50,21 @@ Git was created by Linus Torvalds in 2005 for the development of the Linux kerne
 <a name="git-environment-setup"></a> 
 #### Git Environment Setup
 
+Git supports a command called git config that lets you get and set configuration variables that control all facets of how Git looks and operates. It is used to set Git configuration values on a global or local project level.
+
+Setting user.name and user.email are the necessary configuration options as your name and email will show up in your commit messages.
+
+```
+git config --global user.name "Tech Finally"
+git config --global user.email  "dev@techfinally.com"
+```
+
+You can check your configuration settings; you can use the git config --list command to list all the settings that Git can find at that point.
+
+```
+git config -list
+```
+
 <a name="git-tools"></a> 
 #### Git Tools
 
