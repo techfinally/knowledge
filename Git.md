@@ -8,7 +8,7 @@
 - [1. How to Install Git](#how-to-install-git)
 - [2. Git Environment Setup](#git-environment-setup)
 - [3. Git Tools](#git-tools)
-- [4. Git flow](#git-flow)
+- [4. Git Flow](#git-flow)
 
 [III. Git Commands](#git-commands)
 - [1. Git init](#git-init)
@@ -39,13 +39,36 @@ Git is software for tracking changes in any set of files, usually used for coord
 
 Git was created by Linus Torvalds in 2005 for the development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer. Git is free and open-source software distributed under GNU General Public License Version 2.
 
-
-
 <a name="getting-started"></a> 
 ### Getting Started
 
 <a name="how-to-install-git"></a> 
 #### How to Install Git
+
+Install Git on Windows
+
+```
+https://git-scm.com/downloads
+```
+
+Install Git on Ubuntu
+
+```
+apt-get update
+apt-get install git-core
+```
+
+Install Git on Mac
+
+```
+https://git-scm.com/downloads
+```
+
+Confirm Git the installation
+
+```
+git --versio
+```
 
 <a name="git-environment-setup"></a> 
 #### Git Environment Setup
