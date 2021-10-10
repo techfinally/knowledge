@@ -56,7 +56,7 @@ Setting user.name and user.email are the necessary configuration options as your
 
 ```
 git config --global user.name "Tech Finally"
-git config --global user.email  "dev@techfinally.com"
+git config --global user.email "dev@techfinally.com"
 ```
 
 You can check your configuration settings; you can use the git config --list command to list all the settings that Git can find at that point.
@@ -67,6 +67,18 @@ git config -list
 
 <a name="git-tools"></a> 
 #### Git Tools
+
+To explore the robust functionality of Git, we need some tools. Git comes with some of its tools like Git Bash, Git GUI to provide the interface between machine and user. It supports inbuilt as well as third-party tools.
+
+Git comes with built-in GUI tools like git bash, git-gui, and gitk for committing and browsing. It also supports several third-party tools for users looking for platform-specific experience.
+
+- GitBash
+- Git GUI
+- Gitk
+- SourceTree
+- GitHub Desktop
+- TortoiseGit
+- SmartGit
 
 <a name="git-flow"></a> 
 #### Git flow
